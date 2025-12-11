@@ -1,0 +1,29 @@
+{
+  "name": "nft-contract",
+  "version": "1.0.0",
+  "description": "ERC-721 NFT smart contract with comprehensive automated test suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "clean": "hardhat clean",
+    "coverage": "hardhat coverage"
+  },
+  "keywords": [
+    "erc-721",
+    "nft",
+    "smart-contract",
+    "ethereum",
+    "solidity"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "ethers": "^6.10.0",
+    "chai": "^4.3.10"
+  },
+  "dependencies": {}
+}
